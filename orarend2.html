@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://old.blathy.info/images/favicon/favicon-16x16.png" type="image/x-icon">
+    <title>BMSZC Bláthy Ottó Titusz Informatikai Technikum</title>
+    <link href="/css/index.css" rel="stylesheet">
+</head>
+<body class="bg-white text-black bg-[url('../images/pattern.png')] dark:bg-neutral-900 dark:text-white w-full h-full font-[Roboto]">
+  <div class="m-auto w-[95%] md:w-10/12 lg:w-8/12 xl:w-6/12 mt-6">
+    <!-- NavBar rész (MÁSOLHATÓ) -->
+    <header>
+        <div class="nav-image">Bláthy Ottó Titusz Informatikai Technikum</div>
+        <nav class="navbar">
+            <a class="navbar-button" href="index.html">Kezdőlap</a>
+            <a class="navbar-button" href="orarend2.html">Órarend</a>
+            <a class="navbar-button" href="kapcsolat2.html">Kapcsolat</a>
+        </nav>
+    </header>
+
+    <!-- Tartalom -->
+    <main>
+        <div class="bg-neutral-200 dark:bg-neutral-800 mt-3 rounded-md p-2">
+          <h1 class="text-center text-blathy text-3xl mt-2 mb-3">Jelenleg érvényes órarend</h1>
+          <embed class="w-full h-[40rem] mb-3" src="https://old.blathy.info/orarend220404/osztaly.pdf" type="application/pdf">
+          <h3 class="text-center text-lg mt-2">Órarend letöltés</h3>
+          <div class="flex flex-col md:flex-row justify-between gap-2">
+            <div class="flex-1 border-2 border-solid border-blathy text-center p-1 rounded-md flex-grow cursor-pointer transition-colors hover:bg-blathy">Diákoknak</div>
+            <div class="flex-1 border-2 border-solid border-blathy text-center p-1 rounded-md flex-grow cursor-pointer transition-colors hover:bg-blathy">Tanároknak</div>
+            <div class="flex-1 border-2 border-solid border-blathy text-center p-1 rounded-md flex-grow cursor-pointer transition-colors hover:bg-blathy">Teremelosztás</div>
+          </div>
+          <h3 class="text-center text-lg mt-2">Csengetési rend</h3>
+          <table class="border-2 border-solid border-neutral-900 border-collapse dark:border-neutral-200 m-auto">
+            <thead>
+              <tr>
+                <th>Óra</th>
+                <th>Óra időtartama</th>
+                <th>Szünet</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1. óra</td>
+                <td>08:00 - 08:45 (45 perc)</td>
+                <td>08:45-08:55 (10 perc)</td>
+              </tr>
+              <tr>
+                <td>2. óra</td>
+                <td>08:55 - 09:40 (45 perc)</td>
+                <td>09:40-09:55 (15 perc)</td>
+              </tr>
+              <tr>
+                <td>3. óra</td>
+                <td>09:55 - 10:40 (45 perc)</td>
+                <td>10:40-10:50 (10 perc)</td>
+              </tr>
+              <tr>
+                <td>4. óra</td>
+                <td>10:50 - 11:35 (45 perc)</td>
+                <td>11:35-11:45 (10 perc)</td>
+              </tr>
+              <tr>
+                <td>5. óra</td>
+                <td>11:45 - 12:30 (45 perc)</td>
+                <td>12:30-12:55 (25 perc)</td>
+              </tr>
+              <tr>
+                <td>6. óra</td>
+                <td>12:55 - 13:40 (45 perc)</td>
+                <td>13:40-13:50 (10 perc)</td>
+              </tr>
+              <tr>
+                <td>7. óra</td>
+                <td>13:50 - 14:35 (45 perc)</td>
+                <td>14:35-14:40 (5 perc)</td>
+              </tr>
+              <tr>
+                <td>8. óra</td>
+                <td>14:40 - 15:20 (40 perc)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </main>
+
+    <!-- Lap alja -->
+    <footer>
+        <div class="bg-neutral-200 dark:bg-neutral-800 mt-3 rounded p-2 flex flex-col items-center mb-5">
+            <div>BMSZC Bláthy Ottó Titusz Informatikai Technikum</div>
+            <div class="font-light text-sm text-blathy">2022</div>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>

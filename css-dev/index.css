@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  @apply w-[10px];
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-500;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blathy rounded-[5px];
+}
+
+::-webkit-scrollbar-button {
+  @apply hidden;
+}
+
+.nav-image {
+  @apply bg-[url('../images/cover.jpg')] bg-cover bg-[center_30%] h-60 rounded-md font-bold text-3xl flex justify-center items-end text-center text-white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.navbar {
+  @apply bg-neutral-200 dark:bg-neutral-800 rounded-md p-2 mt-2 flex flex-col lg:flex-row text-center justify-evenly;
+}
+
+.navbar-button {
+  @apply transition-colors relative text-white;
+  @apply hover:text-blathy;
+  @apply before:content-[''] before:absolute before:h-[2px] before:w-0 before:bg-white before:left-0 before:bottom-0 before:transition-all;
+  @apply hover:before:bg-blathy hover:before:w-full;
+}
+
+article {
+  @apply rounded-md bg-neutral-300 p-2 mt-1 dark:bg-neutral-700;
+}
+
+article:hover > h3 {
+  @apply text-blathy;
+}
+
+article > h3 {
+  @apply text-2xl font-bold;
+}
+
+article p, article p * {
+  @apply font-light text-lg;
+}
+
+.news-article > div {
+  @apply flex flex-row gap-1 cursor-pointer justify-end mr-3;
+  @apply hover:text-blathy;
+}
+
+.news-article > div > div:nth-child(1) {
+  @apply transition-colors;
+}
+
+.news-article > div > div:nth-child(2) {
+  @apply relative left-0 transition-all;
+}
+
+.news-article > div:hover > div:nth-child(2) {
+  @apply left-1;
+}
+
+a {
+  @apply text-blathy relative;
+  @apply before:content-[''] before:absolute before:h-[2px] before:w-0 before:bg-white before:left-0 before:bottom-0 before:transition-all;
+  @apply hover:before:bg-blathy hover:before:w-full;
+}
+
+th, td {
+  @apply border border-solid border-neutral-800 dark:border-neutral-300;
+}
+
+tr > td:nth-child(2), tr > td:nth-child(3) {
+  @apply pl-5 pr-5;
+}

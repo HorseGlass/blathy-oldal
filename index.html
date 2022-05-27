@@ -1,105 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet"/>
-    <link rel="shortcut icon" href="https://old.blathy.info/images/favicon/favicon-16x16.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://old.blathy.info/images/favicon/favicon-16x16.png"
+      type="image/x-icon"
+    />
     <title>BMSZC Bláthy Ottó Titusz Informatikai Technikum</title>
-    <link href="/css/index.css" rel="stylesheet">
-</head>
-<body class="bg-white text-black bg-[url('../images/pattern.png')] dark:bg-neutral-900 dark:text-white w-full h-full font-[Roboto]">
+    <link href="/css/index.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-white text-black bg-[url('../images/pattern.png')] dark:bg-neutral-900 dark:text-white w-full h-full font-[Roboto]"
+  >
     <!-- NavBar rész (MÁSOLHATÓ) -->
     <div class="m-auto w-[95%] md:w-10/12 lg:w-8/12 xl:w-6/12 mt-6">
-    <header>
+      <header>
         <div class="nav-image">Bláthy Ottó Titusz Informatikai Technikum</div>
         <nav class="navbar">
-            <a class="navbar-button" href="/">Kezdőlap</a>
-            <a class="navbar-button" href="/orarend2">Órarend</a>
-            <a class="navbar-button" href="/kapcsolat2">Kapcsolat</a>
+          <a class="navbar-button" href="/">Kezdőlap</a>
+          <a class="navbar-button" href="/orarend">Órarend</a>
+          <a class="navbar-button" href="/kapcsolat">Kapcsolat</a>
         </nav>
-    </header>
+      </header>
 
-    <!-- Tartalom -->
-    <main>
+      <!-- Tartalom -->
+      <main>
         <div class="bg-neutral-200 dark:bg-neutral-800 mt-3 rounded-md p-2">
-            <section aria-label="applies">
-                <h1 class="relative text-blathy text-2xl mb-3 font-bold text-center before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-blathy before:left-0 before:bottom-0">Felvételi</h1>
-                <article class="apllies-article mb-3">
-                    <h3>Felvételi tájékoztató az általános iskolák 8. osztályos tanulói, szülei és tanárai részére</h3>
-                    <div class="flex flex-col md:flex-row gap-5 mt-2">
-                        <img src="https://old.blathy.info/documents/news_box/beiskolazas/szorolap.png" alt="" class="w-full md:w-1/4 h-auto rounded self-start">
-                        <div class="pr-3">
-                            <span class="font-light text-xl">A 2022/2023. tanévben az alábbi képzéseket indítjuk:</span>
-                            <ul class="list-disc list-inside">
-                                <li class="text-justify">5 éves technikumi képzés az informatika és távközlés ágazatban, a 11. évfolyamtól választhatóan "Szoftverfejlesztő és -tesztelő" vagy "Informatikai rendszer- és alkalmazás-üzemeltető technikus" szakmákban az általános iskolát most végzőknek 9. évfolyamtól, a 13. évfolyam végén érettségit is adó közismereti képzéssel (tervezett induló létszám 96 fő, 3 osztály),</li>
-                                <li class="text-justify">nyelvi elokészítő évfolyammal induló 1+5 éves technikumi képzés az informatika és távközlés ágazatban, a 11. évfolyamtól választhatóan "Szoftverfejlesztő és -tesztelő" vagy "Informatikai rendszer- és alkalmazás-üzemeltető technikus" szakmákban az általános iskolát most végzőknek 9. évfolyamtól, a 13. évfolyam végén érettségit is adó közismereti képzéssel (tervezett induló létszám 32 fő, egy osztály),</li>
-                                <li class="text-justify">érettségizetteknek "Szoftverfejlesztő és -tesztelő" (esti) felnőttképzés keretében előreláthatóan 2022. februártól</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="flex flex-col md:flex-row gap-5 mt-2">
-                        <img src="https://old.blathy.info/documents/news_box/beiskolazas/szorolap2.png" alt="" class="w-full md:w-1/4 h-auto rounded self-start">
-                        <div class="pr-3 w-full">
-                            <a href="https://old.blathy.info/documents/news_box/beiskolazas/BlathyTajekoztato_V2.0.pdf" target="_blank">Részletes felvételi tájékoztató</a>
-                            <div class="w-full">
-                                <iframe src="https://www.youtube.com/embed/40FvAg_MAgA" frameborder="0" class="w-full aspect-video"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center mt-3">
-                        <a class="text-xl" href="https://felveteli.blathy.info/result/login">Egyeztetett felvételi jegyzék</a>
-                    </div>
-                </article>
-            </section>
-            <section aria-label="news">
-                <h1 class="relative text-blathy text-2xl mb-3 font-bold text-center before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-blathy before:left-0 before:bottom-0">Hírek</h1>
-                <article class="news-article">
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eum voluptatem deserunt, nemo soluta accusantium eaque recusandae sunt magnam. Ea?</p>
-                    <div>
-                        <div>Tovább</div>
-                        <div>></div>
-                    </div>
-                </article>
-                <article class="news-article">
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eum voluptatem deserunt, nemo soluta accusantium eaque recusandae sunt magnam. Ea?</p>
-                    <div>
-                        <div>Tovább</div>
-                        <div>></div>
-                    </div>
-                </article>
-                <article class="news-article">
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eum voluptatem deserunt, nemo soluta accusantium eaque recusandae sunt magnam. Ea?</p>
-                    <div>
-                        <div>Tovább</div>
-                        <div>></div>
-                    </div>
-                </article>
-            </section>
-            <section aria-label="covid" class="mt-3">
-                <h1 class="relative text-blathy text-2xl mb-3 font-bold text-center before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-blathy before:left-0 before:bottom-0">COVID-19</h1>
-                <article>
-                    <h3>A COVID-19 járvány elleni védekezéssel kapcsolatos információk és eljárásrendek</h3>
-                    <p>A legfrissebb eljárásrend itt olvasható:</p>
-                    <embed src="https://old.blathy.info/documents/news_box/BMSZCBl%C3%A1thyOtt%C3%B3TituszInformatikaiTechnikumaJ%C3%A1rv%C3%A1nyElleniV%C3%A9dekez%C3%A9sElj%C3%A1r%C3%A1srendje4.3.pdf" type="application/pdf" class="w-full h-[50rem]">
-                </article>
-            </section>
+          <section aria-label="applies">
+            <h1
+              class="relative text-blathy text-2xl mb-3 font-bold text-center before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-blathy before:left-0 before:bottom-0"
+            >
+              Felvételi
+            </h1>
+            <article class="apllies-article mb-3">
+              <h3>
+                Felvételi tájékoztató az általános iskolák 8. osztályos tanulói,
+                szülei és tanárai részére
+              </h3>
+              <div class="flex flex-col md:flex-row gap-5 mt-2">
+                <img
+                  src="https://old.blathy.info/documents/news_box/beiskolazas/szorolap.png"
+                  alt=""
+                  class="w-full md:w-1/4 h-auto rounded self-start"
+                />
+                <div class="pr-3">
+                  <span class="font-light text-xl"
+                    >A 2022/2023. tanévben az alábbi képzéseket indítjuk:</span
+                  >
+                  <ul class="list-disc list-inside">
+                    <li class="text-justify">
+                      5 éves technikumi képzés az informatika és távközlés
+                      ágazatban, a 11. évfolyamtól választhatóan
+                      "Szoftverfejlesztő és -tesztelő" vagy "Informatikai
+                      rendszer- és alkalmazás-üzemeltető technikus" szakmákban
+                      az általános iskolát most végzőknek 9. évfolyamtól, a 13.
+                      évfolyam végén érettségit is adó közismereti képzéssel
+                      (tervezett induló létszám 96 fő, 3 osztály),
+                    </li>
+                    <li class="text-justify">
+                      nyelvi elokészítő évfolyammal induló 1+5 éves technikumi
+                      képzés az informatika és távközlés ágazatban, a 11.
+                      évfolyamtól választhatóan "Szoftverfejlesztő és -tesztelő"
+                      vagy "Informatikai rendszer- és alkalmazás-üzemeltető
+                      technikus" szakmákban az általános iskolát most végzőknek
+                      9. évfolyamtól, a 13. évfolyam végén érettségit is adó
+                      közismereti képzéssel (tervezett induló létszám 32 fő, egy
+                      osztály),
+                    </li>
+                    <li class="text-justify">
+                      érettségizetteknek "Szoftverfejlesztő és -tesztelő" (esti)
+                      felnőttképzés keretében előreláthatóan 2022. februártól
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="flex flex-col md:flex-row gap-5 mt-2">
+                <img
+                  src="https://old.blathy.info/documents/news_box/beiskolazas/szorolap2.png"
+                  alt=""
+                  class="w-full md:w-1/4 h-auto rounded self-start"
+                />
+                <div class="pr-3 w-full">
+                  <a
+                    href="https://old.blathy.info/documents/news_box/beiskolazas/BlathyTajekoztato_V2.0.pdf"
+                    target="_blank"
+                    >Részletes felvételi tájékoztató</a
+                  >
+                  <div class="w-full">
+                    <iframe
+                      src="https://www.youtube.com/embed/40FvAg_MAgA"
+                      frameborder="0"
+                      class="w-full aspect-video"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center mt-3">
+                <a
+                  class="text-xl"
+                  href="https://felveteli.blathy.info/result/login"
+                  >Egyeztetett felvételi jegyzék</a
+                >
+              </div>
+            </article>
+          </section>
+          <section aria-label="news">
+            <h1
+              class="relative text-blathy text-2xl mb-3 font-bold text-center before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-blathy before:left-0 before:bottom-0"
+            >
+              Hírek
+            </h1>
+            <article class="news-article">
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis eum voluptatem deserunt, nemo soluta accusantium
+                eaque recusandae sunt magnam. Ea?
+              </p>
+              <div>
+                <div>Tovább</div>
+                <div>></div>
+              </div>
+            </article>
+            <article class="news-article">
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis eum voluptatem deserunt, nemo soluta accusantium
+                eaque recusandae sunt magnam. Ea?
+              </p>
+              <div>
+                <div>Tovább</div>
+                <div>></div>
+              </div>
+            </article>
+            <article class="news-article">
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis eum voluptatem deserunt, nemo soluta accusantium
+                eaque recusandae sunt magnam. Ea?
+              </p>
+              <div>
+                <div>Tovább</div>
+                <div>></div>
+              </div>
+            </article>
+          </section>
+          <section aria-label="covid" class="mt-3">
+            <h1
+              class="relative text-blathy text-2xl mb-3 font-bold text-center before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-blathy before:left-0 before:bottom-0"
+            >
+              COVID-19
+            </h1>
+            <article>
+              <h3>
+                A COVID-19 járvány elleni védekezéssel kapcsolatos információk
+                és eljárásrendek
+              </h3>
+              <p>A legfrissebb eljárásrend itt olvasható:</p>
+              <embed
+                src="https://old.blathy.info/documents/news_box/BMSZCBl%C3%A1thyOtt%C3%B3TituszInformatikaiTechnikumaJ%C3%A1rv%C3%A1nyElleniV%C3%A9dekez%C3%A9sElj%C3%A1r%C3%A1srendje4.3.pdf"
+                type="application/pdf"
+                class="w-full h-[50rem]"
+              />
+            </article>
+          </section>
         </div>
-    </main>
+      </main>
 
-    <!-- Lap alja -->
-    <footer>
-        <div class="bg-neutral-200 dark:bg-neutral-800 mt-3 rounded p-2 flex flex-col items-center mb-5">
-            <div>BMSZC Bláthy Ottó Titusz Informatikai Technikum</div>
-            <div class="font-light text-sm text-blathy">2022</div>
+      <!-- Lap alja -->
+      <footer>
+        <div
+          class="bg-neutral-200 dark:bg-neutral-800 mt-3 rounded p-2 flex flex-col items-center mb-5"
+        >
+          <div>BMSZC Bláthy Ottó Titusz Informatikai Technikum</div>
+          <div class="font-light text-sm text-blathy">2022</div>
         </div>
-    </footer>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

@@ -1,0 +1,35 @@
+
+h1{
+    text-align:center;
+    font-size: 400%;
+}
+h2{
+    text-align: center;
+}
+
+
+
+
+body {
+    background-image: url("../images/hatter.png");
+    background-repeat:repeat;
+    color: white;
+}
+
+a:link{
+    color:blue
+
+}
+
+a:visited{
+    color:coral
+}
+
+a:hover{
+    color:green
+}
+
+#kep{
+    display: block;
+    margin: auto;
+}
